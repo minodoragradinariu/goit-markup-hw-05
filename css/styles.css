@@ -757,11 +757,6 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-check {
-    width: 10;
-    height: 8;
-}
-
 .svg-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
