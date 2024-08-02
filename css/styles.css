@@ -525,27 +525,31 @@ body {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-.footer-form{
+
+.footer-form {
     display: flex;
     gap: 24px;
 }
-.form-email{
-width: 264px;
-height: 40px;
-border: 1px solid #ffffff;
-background-color: transparent;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-padding-left: 16px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-color: #ffffff;
-}
-.form-email.placeholder{
+
+.form-email {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     color: #ffffff;
 }
-.button-subscribe{
+
+.form-email.placeholder {
+    color: #ffffff;
+}
+
+.button-subscribe {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -562,6 +566,7 @@ color: #ffffff;
     border: none;
     border-radius: 4px;
 }
+
 .svg-item {
     margin-left: 16px;
 }
@@ -588,11 +593,13 @@ color: #ffffff;
 .modal-backdrop.is-open {
     visibility: initial;
 }
-.btn-close-modal{
+
+.btn-close-modal {
     display: inline-flex;
-justify-content: right;
+    justify-content: right;
 
 }
+
 .svg-modal {
     width: 18px;
     height: 24px;
@@ -600,6 +607,5 @@ justify-content: right;
     left: 16px;
     gap: 4px;
 }
-.form-check{
 
-}
+.form-check {}
