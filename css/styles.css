@@ -665,7 +665,6 @@ body {
 
 .input-name:focus {
     border-color: #4d5ae5;
-    
 }
 .input-name:focus .svg-modal{
     fill: #4D5AE5;
