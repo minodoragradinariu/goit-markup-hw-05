@@ -553,6 +553,8 @@ body {
     visibility: initial;
 }
 .btn-close-modal{
+    display: inline-flex;
+justify-content: right;
 
 }
 .svg-modal {
