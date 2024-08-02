@@ -62,7 +62,9 @@
           <h1 class="first-section-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="button-order" type="button">Order Service</button>
+          <button class="button-order btn-modal" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="second-section section">
@@ -457,11 +459,11 @@
         </div>
         <div>
           <p class="footer-subscribe">Subscribe</p>
-          <form action="" name="footer-form" method="get"
-          >
-          <label></label>
-          <input type="email" name="email" placeholder="E-mail">
-            <button type="submit" class="button-order">Subscribe 
+          <form action="" name="footer-form" method="get">
+            <label></label>
+            <input type="email" name="email" placeholder="E-mail" />
+            <button type="submit" class="button-order">
+              Subscribe
               <a href="#">
                 <svg height="24" width="24" class="svg-item">
                   <use href="./images/icons.svg#icon-subscribe" />
@@ -474,40 +476,49 @@
     </footer>
     <div class="modal-backdrop">
       <div class="modal-container">
+        <button type="button" class="btn-close-modal">
+          <svg width="24" height="24" class="">
+            <use href="./images/icons.svg#icon-close" />
+          </svg>
+        </button>
+        <p>Leave your contacts and we will call you back</p>
+        <form action="">
+<div>
+          <label>Name</label>
           <a class="" href="#">
-            <svg width="24" height="24" class="">
-              <use href="./images/icons.svg#icon-close" />
+            <svg width="24" height="24" class="svg-modal">
+              <use href="./images/icons.svg#icon-person" />
             </svg>
           </a>
-          <p>Leave your contacts and we will call you back</p>
-          <form action="">
-            <label>Name</label>
-            <input type="text" name="name" >
-            <a class="" href="#">
-              <svg width="24" height="24" class="">
-                <use href="./images/icons.svg#icon-person"/>
-              </svg>
-            </a>
-            <label>Phone</label>
-            <input type="number" name="phone">
-            <a class="" href="#">
-              <svg width="24" height="24" class="">
-                <use href="./images/icons.svg#icon-phone"/>
-              </svg>
-            </a>
-            <label for="">Email</label>
-            <input type="email" name="email">
-            <a class="" href="#">
-              <svg width="24" height="24" class="">
-                <use href="./images/icons.svg#icon-email"/>
-              </svg>
-            </a>
-            <label for="">Comment</label>
-            <input type="text" name="comment" placeholder="Text input">
-            <p>I accept the terms and conditions of the Privacy Policy</p>
-            <button type="submit">Send</button>
-          </form>
+          <input type="text" name="name" />
+          <label>Phone</label>
+          <a class="" href="#">
+            <svg width="24" height="24" class="svg-modal">
+              <use href="./images/icons.svg#icon-phone" />
+            </svg>
+          </a>
+          <input type="tel" name="phone" />
+          <label for="">Email</label>
+          <a class="" href="#">
+            <svg width="24" height="24" class="svg-modal">
+              <use href="./images/icons.svg#icon-email" />
+            </svg>
+          </a>
+          <input type="email" name="email" />
+          <label for="">Comment</label>
+          <input type="text" name="comment" placeholder="Text input" />
+        </div>
+          
+          <div class="form-check">
+            <input type=
+            "checkbox" name="check">
+            <label>I accept the terms and conditions of the Privacy Policy</label>
+          </div>
+         
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
