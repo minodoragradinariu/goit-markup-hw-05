@@ -662,11 +662,13 @@ body {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .input-name:focus {
     border-color: #4d5ae5;
 }
-.input-name:focus + .svg-modal {
-    fill: #4D5AE5; 
+
+.input-name:focus+.svg-modal {
+    fill: #4D5AE5;
 }
 
 .svg-modal {
@@ -676,9 +678,11 @@ body {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .svg-modal:focus {
     fill: #4d5ae5;
 }
+
 .modal-form {
     margin-bottom: 8px;
 }
